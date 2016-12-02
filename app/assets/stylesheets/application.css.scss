@@ -21,6 +21,7 @@
 
 h1, h2, h3 {
   font-family: 'Bungee', cursive;
+  color: #7FFFD4;
 }
 
 .home-callout, .navbar {
@@ -34,6 +35,11 @@ h1, h2, h3 {
   border: none;
 }
 
+.navbar-brand, .nav, .navbar-nav, .navbar-right {
+  font-family: 'Bungee', cursive;
+  font-weight: 800;
+}
+
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: white;
   &:hover {
@@ -41,7 +47,6 @@ h1, h2, h3 {
     opacity: 0.75;
   }
 }
-
 
 .home-callout {
   color: white;
