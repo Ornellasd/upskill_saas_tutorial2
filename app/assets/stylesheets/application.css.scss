@@ -19,11 +19,14 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+
+//Font styles
 h1, h2, h3 {
   font-family: 'Bungee', cursive;
   color: #7FFFD4;
 }
 
+//Background gradient style
 .home-callout, .navbar {
   //Gradient provided by @_ighosh at uigradients.com
   background: #DCE35B; /* fallback for old browsers */
@@ -31,6 +34,7 @@ h1, h2, h3 {
   background: linear-gradient(to left, #DCE35B , #45B649); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+// Nav Styles
 .navbar {
   border: none;
 }
@@ -41,13 +45,25 @@ h1, h2, h3 {
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: #7FFFD4;
   &:hover {
     color:white;
     opacity: 0.75;
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus { 
+    background: #DCE35B;
+  }
+}
+
+//Home page styles
 .home-callout {
   color: white;
   margin-top: -20px;
